@@ -1,0 +1,25 @@
+server/
+├── config/
+│   └── database.js
+├── controllers/
+│   ├── postController.js
+│   ├── categoryController.js
+│   └── authController.js
+├── middleware/
+│   ├── authMiddleware.js
+│   ├── errorMiddleware.js
+│   └── validationMiddleware.js
+├── models/
+│   ├── Post.js
+│   ├── Category.js
+│   └── User.js
+├── routes/
+│   ├── posts.js
+│   ├── categories.js
+│   └── auth.js
+├── utils/
+│   └── generateToken.js
+├── .env
+├── .env.example
+├── server.js
+└── package.json
